@@ -56,7 +56,7 @@ public:
             std::cout << "Enter the quantity: ";
             std::cin >> quantity;
 
-            // Add the selected item and quantity to the order
+            
             Order newOrder = {menu[choice - 1], quantity};
             currentOrder.push_back(newOrder);
 
